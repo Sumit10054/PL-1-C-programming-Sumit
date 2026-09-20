@@ -1,23 +1,17 @@
 /*
-Program(6)- Write a program to calculate the average of three numbers.
-Solution(2)-User Define Values.
+Program(5)- Write a program to calculate the average of three numbers.
+Solution(1)- Predefined Values.
 */
 
 #include<stdio.h>
 int main()
 {
-int num1,num2,num3,total;
+int a=33;
+int b=47;
+int c=20;
 float average;
 
-printf("Enter first number:");
-scanf("%d",&num1);
-printf("Enter second number:");
-scanf("%d",&num2);
-printf("Enter third number:");
-scanf("%d",&num3);
-
-total=(num1+num2+num3);
-average=total/3;
+average=(a+b+c)/3;
 printf("\n Average=%f",average);
 
 return 0;
