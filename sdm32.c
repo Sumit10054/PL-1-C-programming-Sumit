@@ -2,6 +2,7 @@
 Program (32) -> Write a program to calculate the area of a triangle.
 Solution (4): Arguments, Returns a Value
 */
+
 #include <stdio.h>
 
 float areaTriangle(float base, float height)
